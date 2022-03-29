@@ -1,0 +1,59 @@
+/*General*/
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body{
+  min-height: 100vh;
+  background-color: rgb(0, 0, 0);
+}
+
+.info{
+  background: rgba(37, 37, 37, 0.5);
+  padding: 3%;
+  margin: 10%;
+}
+
+.info p{
+  font-size: 150%;
+  color: #ff851b;
+}
+
+.info h1{
+  margin-bottom: 3%;
+  color: #0099ff;
+}
+
+img{
+  display: block;
+  margin: auto;
+  clear: right;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+h2 span {
+  color: #0099ff;
+}
+
+@media screen and (max-width: 1100px){
+  
+  .container-body{
+      flex-wrap: wrap;
+  }
+  
+  .col1{
+      max-width: 100%;
+  }
+  
+  .col2,
+  .col3{
+      margin-top: 40px;
+  }
+}
