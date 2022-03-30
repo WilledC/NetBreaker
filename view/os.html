@@ -4,10 +4,11 @@
 		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 		<title>NetBreaker</title>
 		<meta name="description" content="NetBreaker">
-        <script src="https://kit.fontawesome.com/9638fa05b7.js" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/e012b1bab8.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="../public/styles/styles-general.css">
         <link rel="stylesheet" href="../public/styles/styles-footer.css">
         <link rel="stylesheet" href="../public/styles/styles-nav.css">
+        <link rel="stylesheet" href="../public/styles/styles-cards.css">
 		<link rel="icon" type="img/icon" href="../public/assets/icon/icon.png">
 	</head>
  <body>
@@ -32,8 +33,90 @@
 		
 	</header>
 
+    <main>
+        <div class="container__card">
+            
+            <div class="card__father">
+                <div class="card">
+                    <div class="card__front" style="background-image: url(/public/assets/img/windows.png);">
+                        <div class="bg"></div>
+                        <div class="body__card_front">
+                            <h1>New features. Updated security. Getting better all the time.</h1>
+                        </div>
+                    </div>
+                    <div class="card__back">
+                        <div class="body__card_back">
+                            <h1>Windows 10</h1>
+                            <p>With Windows 10 at the heart of your computer you can do it all:</p>
 
-	<div class="footer">
+                            <p>Security features include antivirus, firewall, and internet protections. 
+                                Scan your face or fingerprint with Windows Hello for a fast, secure, and 
+                                password-free way to unlock your PC. 
+                                Focus assist allows you to block notifications, sounds, and alerts for 
+                                some distraction-free work time.</p>
+                                
+                            <a href="../view/windows10.html">
+                                <input type="button" value="Read more">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card__father">
+                <div class="card">
+                    <div class="card__front" style="background-image: url(/public/assets/img/parrot.png);">
+                        <div class="bg"></div>
+                        <div class="body__card_front">
+                            <h1>Hacking tools at your fingertips</h1>
+                        </div>
+                    </div>
+                    <div class="card__back">
+                        <div class="body__card_back">
+                            <h1>Parrot Security OS</h1>
+                            <p>The system is designed from the ground up to be secure. 
+                                Native support for full disk encryption, blazing fast security 
+                                updates and a hardened debian core makes the system the perfect 
+                                place to store sensitive data.</p>
+                            <a href="../view/parrot.html">
+                                <input type="button" value="Read more">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card__father">
+                <div class="card">
+                    <div class="card__front" style="background-image: url(/public/assets/img/kali.png);">
+                        <div class="bg"></div>
+                        <div class="body__card_front">
+                            <h1>The most advanced Penetration Testing Distribution</h1>
+                        </div>
+                    </div>
+                    <div class="card__back">
+                        <div class="body__card_back">
+                            <h1>Kali Linux</h1>
+                            <p>Kali Linux is an open-source, Debian-based Linux distribution geared towards various 
+                                information security tasks, such as Penetration Testing, Security Research, 
+                                Computer Forensics and Reverse Engineering.</p>
+                            
+                            <a href="../view/kali.html">
+                                <input type="button" value="Read more">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <div id="btn-up">
+        <i class="fa-solid fa-chevron-up"></i>
+    </div>
+
+    <div class="footer">
         <div class="container-footer-all">
         <div class="container-body">
             <div class="col1">
@@ -47,17 +130,17 @@
         <h1>Social Media</h1>
         
         <div class="row">
-			<a href="https://www.facebook.com/">
+            <a href="https://www.facebook.com/">
             <img src="../public/assets/icon/facebook.png"></a>
-			<label>Follow us on Facebook</label>
+            <label>Follow us on Facebook</label>
         </div>
         <div class="row">
-			<a href="https://twitter.com/">
+            <a href="https://twitter.com/">
                 <img src="../public/assets/icon/twitter.png"></a>
                 <label><pre>Follow us on Twitter</pre></label>
             </div>
             <div class="row">
-				<a href="https://www.instagram.com/">
+                <a href="https://www.instagram.com/">
                     <img src="../public/assets/icon/instagram.png"></a>
                     <label>Follow us on Instagram</label>
                 </div>
@@ -80,19 +163,20 @@
         </div>
         
         <div class="container-footer">
-            <div class="footer">
+            <div class="subfooter">
             <div class="copyright">
                 &copy; 2022 All rights reserved &#124; NetBreaker
             </div>
         
-                <div class="information">
-                    <a href="../view/info.html">Company Info</a> &#124;
-                    <a href="../view/priv.html">Privacy and Politics</a> &#124;
-                    <a href="../view/terms.html">Terms and Conditions </a>
-                </div>
+            <div class="information">
+                <a href="../view/info.html">Company Info</a> &#124;
+                <a href="../view/priv.html">Privacy and Politics</a> &#124;
+                <a href="../view/terms.html">Terms and Conditions </a>
+            </div>
         </div>
         </div>
         </div>
-	</div>
+    </div>
+    <script src="../public/JS/upbtn-script.js"></script>
 	</body>	
 </html>
