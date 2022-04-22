@@ -1,0 +1,12 @@
+body{
+    background-position: -900px 80px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../assets/img/wallhaven-nzx3rv.jpg);
+}
+
+.body{
+    margin: 450px 0px;
+    text-align: center;
+    color: white;
+}
