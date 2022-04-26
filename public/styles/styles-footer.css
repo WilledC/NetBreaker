@@ -29,13 +29,13 @@
 
 .footer{
     max-width: 1200px;
-    position: relative;
+    position: absolute;
     margin: auto;
     display: flex;
     justify-content: space-between;  
     padding: 20px;
     width: 100%;
-    background: rgba(37, 37, 37, 0.3);
+    background: rgba(37, 37, 37);
     color: white;
     max-width: 100%;
   }

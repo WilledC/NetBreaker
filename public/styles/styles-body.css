@@ -1,5 +1,5 @@
 .bodybg1{
-    background-position: -900px 80px;
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url(../assets/img/body1.jpg);
@@ -8,7 +8,10 @@
 .body1{
     margin: 450px 0px;
     text-align: center;
-    color: white;
+    position: relative;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: -5;
 }
 
 .bodybg2{
