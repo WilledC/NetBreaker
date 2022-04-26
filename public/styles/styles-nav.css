@@ -24,14 +24,6 @@
     align-items: center;
   }
 
-  .logo h1{
-    color: rgb(255, 102, 0);
-  }
-
-  .logo h1 b{
-    color: rgb(3, 3, 187);
-  }
-
   .menu{
     height: 80px;
   }
@@ -55,6 +47,9 @@
     position: relative;
   }
 
+  .menu-selected{
+    transition-delay: 0.3s;
+  }
   .menu-selected:before{
     content: '';
     width: 100%;
